@@ -1,0 +1,48 @@
+﻿生成启动时间为 2023/5/19 16:12:47。
+     1>项目“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\OpenGL_Phong\OpenGL_Phong.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\Desktop\资料\计算机图形学\Computer-Graphics-master\task08-phong\external\glad\src\glad.c"
+         glad.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Light.cpp main.cpp Shader.cpp
+         Shader.cpp
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\gl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(117): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(182): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(186): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(314): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(315): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(316): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(317): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(319): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\81228\documents\visual studio 2015\projects\opengl_phong\opengl_phong\main.cpp(329): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         Light.cpp
+         Camera.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\OpenGL_Phong.exe" /INCREMENTAL /NOLOGO glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\OpenGL_Phong.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\OpenGL_Phong.lib" /MACHINE:X86 Debug\glad.obj
+         Debug\Camera.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\Shader.obj
+     1>glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(init.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(input.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(monitor.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(vulkan.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(window.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_init.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_time.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_window.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(egl_context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         OpenGL_Phong.vcxproj -> C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\Debug\OpenGL_Phong.exe
+     1>已完成生成项目“C:\Users\81228\Documents\Visual Studio 2015\Projects\OpenGL_Phong\OpenGL_Phong\OpenGL_Phong.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.02
